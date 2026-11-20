@@ -6,9 +6,9 @@ Play **Teenage Mutant Ninja Turtles (PC, 2003)** together on **two PCs over a lo
 
 ![TMNT 2003 LAN Co-op](assets/cover.png)
 
-**[Download v0.14](https://github.com/hallejuah/tmnt-2003-lan-coop-releases/releases/download/v0.14/TMNT_LAN_v0.14.zip)** · [All releases](https://github.com/hallejuah/tmnt-2003-lan-coop-releases/releases)
+**[Download v0.15.4](https://github.com/hallejuah/tmnt-2003-lan-coop-releases/releases/download/v0.15.4/TMNT_LAN_v0.15.4.zip)** · [All releases](https://github.com/hallejuah/tmnt-2003-lan-coop-releases/releases)
 
-The archive contains **one TMNTLanLauncher.exe**, launcher version **1.5.0**. No PS1/CMD scripts or separate DLL installation is required.
+The archive contains **one TMNTLanLauncher.exe**, launcher version **1.6.4**. No PS1/CMD scripts or separate DLL installation is required.
 
 ## Features
 
@@ -21,7 +21,21 @@ The archive contains **one TMNTLanLauncher.exe**, launcher version **1.5.0**. No
 
 The original shared camera is retained. The host controls shared menus. Display options are built in; the standalone Community Launcher is not required for LAN play.
 
+## Changes since v0.14
+
+- Optional in-game **PING / WAIT / FPS** display.
+- Matching LAN-save and difficulty checks before a session starts.
+- Agreed level-completion time for bonus calculation and paired resource readiness during character respawn.
+- RU/EN waiting and connected screens inside the game window, also with the ping display disabled.
+- In v0.15.4, connection drawing starts after initial resource loading; startup diagnostics were added.
+
+This remains an experimental build. Rare initial-loading hangs are still under
+investigation; a full natural two-player campaign still needs manual testing.
+
 ## Quick start
+
+Use **v0.15.4 on both PCs**. Close the game and launcher, then replace only
+`TMNTLanLauncher.exe`. Existing LAN progress in `CoopLab` can be retained.
 
 1. Install a compatible PC copy of TMNT 2003 on both computers. Requires **Windows 10/11**, **.NET Framework 4.8** and the same LAN.
 2. Place **TMNTLanLauncher.exe** beside **TMNT.EXE** on each PC. Use **Browse** if the game is not detected.
